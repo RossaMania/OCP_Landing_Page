@@ -83,10 +83,8 @@ body {
 }
 
 .dick-jones-ocp {
-  float: right;
   width: 10%;
   height: 10%;
-  object-fit: contain;
   margin: 10px;
 }
 
@@ -94,6 +92,13 @@ h1 {
   font-family: "Dosis", sans-serif;
   margin: 5px;
 }
+
+/*.box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}*/
 
 .introduction {
   background: #505458;
@@ -118,10 +123,8 @@ h1 {
 }
 
 .robocop-deltacity {
-  float: left;
   width: 10%;
   height: 10%;
-  object-fit: contain;
   margin: 10px;
 }
 
@@ -137,12 +140,15 @@ form {
   padding-left: 10px;
 }
 
+#video {
+  padding: 100px;
+}
+
 .main-footer {
   background: black;
   padding: 32px;
-  margin: auto;
-  margin-left: 200px;
   text-align: center;
+  width: 100%;
 }
 
 .legalmumbojumbo {
@@ -166,6 +172,7 @@ form {
 }
 
 @media (max-width: 768px) {
+  
   .nav-link {
     font-weight: normal;
     padding: 0px 25px;
@@ -192,14 +199,8 @@ form {
   .main-footer {
     background: black;
     padding: 32px;
-    margin: auto;
     text-align: center;
-  }
-
-  .legalmumbojumbo {
-    font-family: "Play", sans-serif;
-    color: #ebebeb;
-    font-size: 10px;
+    width: 100%;
   }
 
   .main-footer__links {
