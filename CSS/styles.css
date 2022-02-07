@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 
+/* Submit Button Styling */
+
 .nav-link:hover,
 a:hover {
   color: #ee2b47;
 }
-
-
 
 .btn {
   background: #af0404;
@@ -38,6 +38,8 @@ body {
   background: #af0404;
   width: 100%;
 }
+
+/* Header and Nav Bar Styling */
 
 #header {
   font-family: "Play", sans-serif;
@@ -86,8 +88,28 @@ body {
   text-decoration: none;
 }
 
-.contact-form {
+/* Features Section Styling */
+
+#features-section {
+  padding: 0;
+  margin: 2rem 0rem 1rem 0rem;
   background: #ee0e51;
+}
+
+.features {
+  text-align: center;
+  padding: 5% 5%;
+  margin: 3rem 0rem 1rem 0rem;
+}
+
+.feature-text {
+  color: black;
+  font-family: "Rubik", sans-serif;
+}
+
+.feature-icon {
+  color: black;
+  padding: 0.2rem;
 }
 
 .dick-jones-ocp {
@@ -110,7 +132,7 @@ h1 {
 
 .introduction {
   background: #505458;
-  margin-top: 120px;
+  margin-top: 10px;
   padding: 5px;
 }
 
@@ -136,6 +158,8 @@ h1 {
   margin: 10px;
 }
 
+/* Contact Form Styling */
+
 form {
   font-family: "Rubik", sans-serif;
   color: #ebebeb;
@@ -148,9 +172,15 @@ form {
   padding-left: 10px;
 }
 
+.contact-form {
+  background: #ee0e51;
+}
+
 #video {
   padding: 100px;
 }
+
+/* Footer Styling */
 
 .main-footer {
   background: black;
@@ -178,6 +208,7 @@ form {
   text-decoration: none;
   color: #ebebeb;
 }
+
 
 @media (max-width: 768px) {
   
