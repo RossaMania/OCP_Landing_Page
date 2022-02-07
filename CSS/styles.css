@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+.nav-link:hover,
 a:hover {
   color: #ee2b47;
 }
+
+
 
 .btn {
   background: #af0404;
