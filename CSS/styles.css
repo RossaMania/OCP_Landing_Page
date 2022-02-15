@@ -124,20 +124,18 @@ h1 {
 
 .introduction {
   background: #505458;
-  margin-top: 10px;
   padding: 5px;
 }
 
 .photo1 {
   background: #505458;
-  margin-top: 10px;
   padding: 5px 0px 5px 100px;
 }
 
 .dick-jones-ocp {
   width: 450px;
   height: 300px;
-  margin: 10px;
+  margin: 20px 0 0 0;
 }
 
 .description {
@@ -241,12 +239,22 @@ form {
     width: 60px;
   }
 
-  .dick-jones-ocp {
-    display: none;
+  .photo1 {
+    padding: 0;
   }
 
-  .robocop-deltacity {
-    display: none;
+  .dick-jones-ocp {
+    width: 225px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  .photo2 {
+    padding: 0;
+  }
+
+  #video {
+    padding: 0;
   }
 
   .main-footer {
