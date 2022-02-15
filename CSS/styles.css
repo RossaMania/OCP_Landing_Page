@@ -130,6 +130,8 @@ h1 {
   flex-wrap: nowrap;
 }*/
 
+/* About Us Section */
+
 .introduction {
   background: #505458;
   margin-top: 10px;
@@ -159,8 +161,8 @@ h1 {
 }
 
 .robocop-deltacity {
-  width: 10%;
-  height: 10%;
+  width: 317px;
+  height: 331px;
   margin: 10px;
 }
 
