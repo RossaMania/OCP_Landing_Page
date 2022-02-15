@@ -33,6 +33,8 @@ a:hover {
   color: black;
 }
 
+/* Element Styling */
+
 body {
   margin: 0px 0px 0px 0px;
   background: #af0404;
@@ -112,23 +114,11 @@ body {
   padding: 0.2rem;
 }
 
-.dick-jones-ocp {
-  width: 450px;
-  height: 300px;
-  margin: 10px;
-}
 
 h1 {
   font-family: "Dosis", sans-serif;
   margin: 5px;
 }
-
-/*.box-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: nowrap;
-}*/
 
 /* About Us Section */
 
@@ -138,10 +128,16 @@ h1 {
   padding: 5px;
 }
 
-.introduction-photo {
+.photo1 {
   background: #505458;
   margin-top: 10px;
   padding: 5px 0px 5px 100px;
+}
+
+.dick-jones-ocp {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
 }
 
 .description {
@@ -150,20 +146,30 @@ h1 {
   margin: 10px;
 }
 
+/* Delta City Section */
+
 .product1 {
   background: #505458;
   padding: 5px;
 }
 
+/* RoboCop Section */
+
 .product2 {
   background: #505458;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .robocop-deltacity {
   width: 317px;
   height: 331px;
   margin: 10px;
+  text-align: center;
+}
+
+.photo2 {
+  background: #505458;
+  padding: 5px 0px 5px 100px;
 }
 
 /* Contact Form Styling */
