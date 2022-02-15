@@ -93,7 +93,7 @@ body {
 #features-section {
   padding: 0;
   margin: 2rem 0rem 1rem 0rem;
-  background: #ee0e51;
+  background: black;
 }
 
 .features {
@@ -103,18 +103,18 @@ body {
 }
 
 .feature-text {
-  color: black;
+  color: #ee2b47;
   font-family: "Rubik", sans-serif;
 }
 
 .feature-icon {
-  color: black;
+  color: #ee2b47;
   padding: 0.2rem;
 }
 
 .dick-jones-ocp {
-  width: 10%;
-  height: 10%;
+  width: 450px;
+  height: 300px;
   margin: 10px;
 }
 
@@ -134,6 +134,12 @@ h1 {
   background: #505458;
   margin-top: 10px;
   padding: 5px;
+}
+
+.introduction-photo {
+  background: #505458;
+  margin-top: 10px;
+  padding: 5px 0px 5px 100px;
 }
 
 .description {
