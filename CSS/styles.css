@@ -189,7 +189,7 @@ form {
 }
 
 #video {
-  padding: 100px;
+  padding: 0px;
 }
 
 /* Footer Styling */
@@ -253,8 +253,17 @@ form {
     padding: 0;
   }
 
+  .robocop-deltacity {
+    width: 159px;
+    height: 165px;
+    margin: 10px;
+    text-align: center;
+  }
+
   #video {
     padding: 0;
+    width: 280px;
+    height: 157px;
   }
 
   .main-footer {
@@ -278,5 +287,13 @@ form {
     text-decoration: none;
     color: #ebebeb;
     font-size: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .dick-jones-ocp {
+    width: 360px;
+    height: 240px;
+    margin: 20px 0 0 0;
   }
 }
