@@ -295,10 +295,19 @@ form {
   }
 }
 
-@media (max-width: px) {
+@media (max-width: 360px) {
   .dick-jones-ocp {
     width: 200px;
     height: 125px;
     margin: 0;
+  }
+
+  .nav-link {
+    font-weight: normal;
+    padding: 0px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #ebebeb;
+    text-decoration: none;
   }
 }
