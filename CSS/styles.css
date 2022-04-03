@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
 
 /* Submit Button Styling */
 
@@ -105,19 +104,19 @@ body {
 }
 
 .feature-text {
-  color: #ee2b47;
+  color: #af0404;
   font-family: "Rubik", sans-serif;
 }
 
 .feature-icon {
-  color: #ee2b47;
+  color: #af0404;
   padding: 0.2rem;
 }
-
 
 h1 {
   font-family: "Dosis", sans-serif;
   margin: 5px;
+  color: #ebebeb;
 }
 
 /* About Us Section */
@@ -185,7 +184,8 @@ form {
 }
 
 .contact-form {
-  background: #ee0e51;
+  background: #af0404;
+  margin: auto;
 }
 
 #video {
@@ -221,9 +221,7 @@ form {
   color: #ebebeb;
 }
 
-
 @media (max-width: 768px) {
-  
   .nav-link {
     font-weight: normal;
     padding: 0px 25px;
@@ -246,7 +244,7 @@ form {
   .dick-jones-ocp {
     width: 225px;
     height: 150px;
-    margin: 10px;
+    margin: auto;
   }
 
   .photo2 {
@@ -256,7 +254,7 @@ form {
   .robocop-deltacity {
     width: 159px;
     height: 165px;
-    margin: 10px;
+    margin: auto;
     text-align: center;
   }
 
