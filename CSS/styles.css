@@ -99,7 +99,8 @@ body {
 
 .features {
   text-align: center;
-  padding: 5% 5%;
+  /* padding: 5% 5%; */
+  padding: 5%;
   margin: 3rem 0rem 1rem 0rem;
 }
 
@@ -301,6 +302,21 @@ form {
     height: 125px;
     margin: 0;
   }
+
+  .feature2 {
+    text-align: center;
+    /* padding: 5% 5%; */
+    padding: 5%;
+    margin: 2rem 0rem 0.5rem 0rem;
+  }
+  
+  .feature3 {
+    text-align: center;
+    /* padding: 5% 5%; */
+    padding: 5%;
+    margin: 2rem 0rem 0.5rem 0rem;
+  }
+
 
   .nav-link {
     font-weight: normal;
