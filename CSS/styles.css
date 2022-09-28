@@ -117,7 +117,7 @@ body {
   text-align: center;
   /* padding: 5% 5%; */
   padding: 3%;
-  margin: 3rem 0rem 1rem 0rem;
+  margin: 2rem 0rem 1rem 0rem;
 }
 
 .feature-text {
@@ -145,7 +145,7 @@ h1 {
 
 .photo1 {
   background: #505458;
-  padding: 5px 0px 5px 100px;
+  padding: 5px 5px 100px;
 }
 
 .dick-jones-ocp {
@@ -340,7 +340,7 @@ form {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .dick-jones-ocp {
     width: 360px;
     height: 240px;
